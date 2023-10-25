@@ -1,0 +1,45 @@
+name: str = "John"
+age: int = 18
+amount: float = 1000.00
+Total: float = age * amount
+
+
+
+
+#if (age > 18) :
+#	print("all is good")
+#	amount+= 100 #amount = amount + 100
+
+#print("age is ", age)
+#print("new amount is ", amount)
+	
+# if and else statements
+
+#if age > 18:
+#	print("user is eligible")	
+#else:
+#	print("user is not eligible")
+
+#print("age is ",age)	
+
+# Nested IF STATEMENTS
+
+#if age > 18: 
+#	print ("user is eligible")
+#	if name == "John":
+#		amount += 100
+#else:
+#	print("user is not eliible")
+
+#print("age is ", age)	
+#print("name is" ,name)		
+
+# IF ELIF AND ELSE STATEMENTS
+if age == 18 :
+	print("Welcomne to adulthood")
+elif age > 18:
+	print("you can have some beer now")	
+else:
+	print("sorry npo beers now")	
+
+print("age is ", age)	
