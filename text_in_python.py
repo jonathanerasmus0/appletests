@@ -118,13 +118,26 @@ l#ist_of_fruits = ','.join(List_of_fruits)
 
 
 #
-info = 'Hi eevryone I live in Berlin'
-print (info.replace('Berlin','Munich'))
+#info = 'Hi eevryone I live in Berlin'
+#print (info.replace('Berlin','Munich'))
 
 #Type casting
-value = int = 12000
+#value = int = 12000
 
-string_value = str(value) # int being converted to string
+#string_value = str(value) # int being converted to string
+
+
+# string_value = str
+# Encoding a string in to byts format
+say_hello= "hello world"
+encoded_data =say_hello.encode(utf-8)
+print(encoded_data)
+
+#decoding byts in to 
+
+print(encoded_data.decode('utf-8'))
+
+
 
 
 
